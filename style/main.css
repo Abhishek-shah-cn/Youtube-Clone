@@ -341,10 +341,15 @@ aside {
   text-decoration: none;
   color: gray;
 }
+
+.container-side-bar h1 {
+  font-size: medium;
+}
 .container-side-bar {
-  height: 10rem;
-  weight: 20 rem;
-  
+  height: 6rem;
+left: 5px;;
+  cursor: pointer;
+  display: inline-flex;
 }
 
 @media only screen and (max-width: 1002px) {
