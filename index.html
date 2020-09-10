@@ -4,20 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Youtube Clone</title>
   </head>
   <body>
     <div class="Container">
-       <header>
-           <div class="header__logo">
-            <a href="#">
-                <img src="images/header/hamburger.png" alt="navigation button" class="header__hamburger-logo">
-            </a>
-            <a href="#">
-                <img src="images/header/yt-logo.png" alt="YouTube logo" class="header__yt-logo">
-            </a>
-           </div>
-       </header>
+      <header>
+        <div class="header__logo">
+          <a href="#" class="header__hamburger-logo">
+            <i
+              class="fa fa-bars"
+              style="font-size: 30px"
+              alt="navigation button"
+              style="color: black;"
+            ></i>
+          </a>
+
+          <a href="#">
+            <img
+              src="images/header/yt-logo.png"
+              alt="YouTube logo"
+              class="header__yt-logo"
+            />
+          </a>
+        </div>
+        <div class="search">
+            <form>
+                <input type="text" name="search" id="search__input" placeholder="Search">
+                <a href="#">
+                    <img src="images/header/search.png" alt="Search Icon" class="search__icon">
+                </a>
+            </form>
+        </div>
+           <div class="header__icons header__logo">
+                    <a href="#">
+                        <img src="https://image.flaticon.com/icons/svg/2919/2919587.svg" alt="grid icon" class="header__icons--grid">
+                    </a>
+                    <a href="#">
+                        <img src="https://image.flaticon.com/icons/svg/847/847455.svg" alt="grid icon" class="header__icons--upload">
+                    </a>
+                    <a href="#"  alt="grid icon" class="header__icons--bell">
+                        <i class="fa fa-bell"></i>
+                    </a>
+                    <a href="#">
+                        <img src="https://image.flaticon.com/icons/svg/3237/3237472.svg" alt="grid icon" class="header__icons--profile">
+                    </a>
+                </div>
+      </header>
     </div>
   </body>
 </html>
